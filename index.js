@@ -10,12 +10,12 @@ const ws = require('./lib/ws-core')
 const cli = makeCli(`
   Usage
 
-    $ whitespace [source-file]
+    $ zerospace [source-file]
 
   Examples
 
-    $ whitespace print-hello-world.ws
-    $ cat print-hello-world.ws | whitespace
+    $ zerospace print-hello-world.zs
+    $ cat print-hello-world.zs | zerospace
 		
     Prints:
     $ Hello World!

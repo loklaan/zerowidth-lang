@@ -1,16 +1,16 @@
 {
-  "name": "whitespace-lang",
+  "name": "zerospace-lang",
   "version": "1.0.0",
-  "description": "Runs programs written in Whitespace Language",
-  "homepage": "https://github.com/loklaan/whitespace-lang",
-  "repository": "git@github.com:loklaan/whitespace-lang.git",
+  "description": "Runs programs written in Whitespace Language (modified for Zero Width chars)",
+  "homepage": "https://github.com/loklaan/zerowidth-lang",
+  "repository": "git@github.com:loklaan/zerowidth-lang.git",
   "bin": {
-    "whitespace": "index.js"
+    "zerowidth": "index.js"
   },
   "author": "Lochlan Bunn <bunn@lochlan.io>",
   "license": "MIT",
   "scripts": {
-    "test": "./index.js tests.ws"
+    "test": "./index.js tests.zw"
   },
   "dependencies": {
     "get-stdin": "^5.0.1",
@@ -20,6 +20,8 @@
     "cli",
     "whitespace",
     "whitespace-language",
+    "zerowidth",
+    "zerowidth-characters",
     "interpreter"
   ]
 }

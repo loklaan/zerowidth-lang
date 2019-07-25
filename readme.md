@@ -1,27 +1,27 @@
-# Whitespace Interpreter
+# Whitespace Interpreter (modified to use [Zero Width](https://en.wikipedia.org/wiki/Zero_width) chars)
 
-CLI to interpret programs written in the [Whitespace programming language](http://compsoc.dur.ac.uk/whitespace/).
+CLI to interpret programs written in the [Whitespace programming language](http://compsoc.dur.ac.uk/whitespace/), but modifed to use [Zero Width](https://en.wikipedia.org/wiki/Zero_width) characters ZEROWIDTH SPACE and ZEROWIDTH NON-JOINER.
 
 ## Usage
 
 **Quick Start**
 
 ```shell
-$ npx whitespace-lang print-hello-world.ws
+$ npx zerowidth-lang print-hello-world.zw
 ```
 
 ---
 
 ```shell
 # Install
-$ npm i -g whitespace-lang
+$ npm i -g zerowidth-lang
 
 # Running a program
-$ whitespace print-hello-world.ws
+$ zerowidth print-hello-world.zw
 $ Hello World!
 
 # Also works with stdin!
-$ cat print-hello-world.ws | whitespace
+$ cat print-hello-world.zw | zerowidth
 $ Hello World!
 ```
 
@@ -35,11 +35,11 @@ Saying that, feel free to make GitHub issues. 👍
 
 ### Credit
 
-**Thanks [vii5ard](https://github.com/vii5ard)!**  
+**Thanks [vii5ard](https://github.com/vii5ard)!**
 _The interpreter & compiler where adapted from the [vii5ard/whitespace](https://github.com/vii5ard/whitespace) IDE, which you should use to create programs!_
 
 ### License
 
 MIT License
 
-_Copyright (c) 2018 Lochlan Bunn_
+_Copyright (c) 2019 Lochlan Bunn_
