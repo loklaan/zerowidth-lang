@@ -1,6 +1,6 @@
 {
   "name": "zerospace-lang",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Runs programs written in Whitespace Language (modified for Zero Width chars)",
   "homepage": "https://github.com/loklaan/zerowidth-lang",
   "repository": "git@github.com:loklaan/zerowidth-lang.git",
